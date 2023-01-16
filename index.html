@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advert Agency</title>
+
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="advert.css">
+  <link rel="stylesheet" href="fanky.js">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-light navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container-fluid navigation-bar">
+      <a class="navbar-brand" href="#">Company Brand
+        Name</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <p class="offcanvas-title" id="offcanvasNavbarLabel">Company Logo</p>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active"
+                href="file:///C:/Users/manag/Visual%20Studio%20Code/AdvertAgency/product.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown branch
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-dark btn-lg bottom-menu" href="#">Contact</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="navigation-bar">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="landing-main-titile">We create ads <br>
+          That sell<br>
+          Advertisement agency</h1>
+        <!-- <span class="landing-main-titile span-roll"></span> -->
+      </div>
+      <div class="col-lg-12">
+        <p class="landing-discription-text">Some text about company or, for example, main offer, season sale and etc.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Presentation -->
+  <div class="presentation-bar">
+    <div class="row g-0">
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item">
+        <div class="img__wrap picture-1">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">Branding</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item">
+        <div class="img__wrap picture-2">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">Outdoor advertising</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item">
+        <div class="img__wrap picture-3">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">Volumetric letters</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item">
+        <div class="img__wrap picture-4">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">Polygraphy</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item visible-none">
+        <div class="img__wrap picture-5">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">
+              Billboard, Plates, Information stands</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 column-item visible-none">
+        <div class="img__wrap picture-6">
+          <img class="" src="" alt="">
+          <div class="img__description_layer">
+            <p class="img__description">Large format printing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- offer -->
+  <div class="offer-container">
+    <h2 class="offer-titile">We create ads that sell. <br>
+      Get high quality and fast results together</h2>
+    <p class="about-us-bottom">
+      <button type="button" class="btn btn-dark btn-lg circle-bottom">Right</button> Read About Us
+    </p>
+  </div>
+
+
+  <!-- our service -->
+  <div class="Our-services-container">
+    <div class="service-title">
+      <h3 class="our-service-titile">Find a service <br>
+        What you need</h2>
+    </div>
+    <div class="row servise-block">
+
+      <!-- 1 part service -->
+      <div class="row total-container">
+        <div class="col-lg-6 col-sm-12 flexsize-item">
+          <div class="fixsize test-fon">
+            <img class="img-in-service" src="img/BILB.png" alt="">
+          </div>
+        </div>
+        <!-- 1 part service -->
+        <div class="col-lg-6 col-sm-12 flexsize-title">
+          <div>
+            <class class="service-icons-text">Объемные буквы</class>
+            <class class="service-icons-text">Бегущие строки</class>
+            <class class="service-icons-text">Фреймлайты</class>
+            <class class="service-icons-text">Световые короба</class>
+            <class class="service-icons-text">Штендеры</class>
+            <class class="service-icons-text">Широкоформатная печать</class>
+            <class class="service-icons-text">Лайт-боксы</class>
+          </div>
+          <div>
+            <h3 class="flex-title">Наружная реклама</h3>
+          </div>
+          <div>
+            <p class="our-service-text">We create ads that sell.<br>
+              Get high quality and fast results together.
+              We create ads that sell.
+              Get high quality and fast results together.
+              We create ads that sell.
+              Get high quality and fast results together.</p>
+          </div>
+          <p class="our-service-bottom">
+          <form action="file:///C:/Users/manag/Visual%20Studio%20Code/AdvertAgency/product.html">
+            <button type="button" class="btn btn-light btn-lg service-bottom">Right</button>Read More
+            </p>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- 2 part service -->
+      <div class="row total-container">
+        <div class="col-lg-6 col-sm-12 flexsize-item">
+          <div class="fixsize">
+
+            <img class="img-in-service " src="img/securecar.gif" alt="">
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 flexsize-title">
+          <div>
+            <class class="service-icons-text">Брендирование легковых авто</class>
+            <class class="service-icons-text">Брендирование грузовых авто</class>
+            <class class="service-icons-text">Оклейка общественного транспорта</class>
+          </div>
+          <div>
+            <h3 class="flex-title">Branding of cars<br>
+          </div>
+          <div>
+            <p class="our-service-text">We create ads that sell. <br>
+              Get high quality and fast results together
+              We create ads that sell.
+              Get high quality and fast results together
+              We create ads that sell.
+              Get high quality and fast results together</p>
+          </div>
+          <p class="our-service-bottom">
+            <button type="button" class="btn btn-light btn-lg service-bottom">Right</button> Read More
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 part service -->
+      <div class="row total-container">
+        <div class="col-lg-6 col-sm-12 flexsize-item">
+          <div class="fixsize">
+            <img class="img-in-service" src="img/around-img.gif" alt="">
+          </div>
+        </div>
+        <!-- 3 part service -->
+        <div class="col-lg-6 col-sm-12 flexsize-title">
+          <div>
+            <class class="service-icons-text">Листовки</class>
+            <class class="service-icons-text">Буклеты</class>
+            <class class="service-icons-text">Визитки</class>
+            <class class="service-icons-text">Календари</class>
+          </div>
+          <div>
+            <h2 class="flex-title">Polygraphy<br>
+          </div>
+          <div>
+            <p class="our-service-text">We create ads that sell.<br>
+              Get high quality and fast results together.
+              We create ads that sell..</p>
+          </div>
+          <p class="our-service-bottom">
+            <button type="button" class="btn btn-light btn-lg service-bottom">Right</button> Read More
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 part service -->
+      <div class="row total-container">
+        <div class="col-lg-6 col-sm-12 flexsize-item">
+          <div class="fixsize vraz-div">
+            <img class="vraz-gif" src="img/vraz.gif" alt="">
+          </div>
+        </div>
+        <!-- 4 part service -->
+        <div class="col-lg-6 col-sm-12 flexsize-title">
+          <div>
+            <class class="service-icons-text">Регистрация рекламы</class>
+            <class class="service-icons-text">Высотный монтаж</class>
+            <class class="service-icons-text">Ремонт бегущих строк</class>
+          </div>
+          <div>
+            <h2 class="flex-title">Working with advertising<br>
+          </div>
+          <div>
+            <p class="our-service-text">We create ads that sell.<br>
+              Get high quality and fast results together.
+              We create ads that sell.We create ads that sell.</p>
+          </div>
+          <p class="our-service-bottom">
+            <button type="button" class="btn btn-light btn-lg service-bottom">Right</button> Read More
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Фотоблок пропадает на маленьких экранах -->
+  <div class="layer-img visible-none">
+    <div class="img-wrapper">
+      <img class="img-hover-layer" src="img/jacqueline.jpg" alt="">
+    </div>
+  </div>
+
+
+  <!-- Бегущая строка блок -->
+  <!-- Our work -->
+  <div class="container-work">
+    <div class="page-top row">
+      <div class="row our-work-title">
+        <div class="col rowcol">
+          <h2 class="offer-titile">Read reviews <br> About our work
+        </div>
+        <div class="col rowcol d-flex justify-content-end">
+          <p>
+            <button type="button" class="btn btn-dark btn-lg circle-bottom"></button>Read more
+          </p>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="review-content">
+                "I was very satisfied with my decision to work with your Company on building the website for my brand,
+                Gemini
+                Skincare. They did a great job putting the site together in a timely fashion. Jon & team are extremely
+                detail-oriented and were open to the feedback I provided them."
+              </p>
+              <div class="review-content d-flex justify-content-end">
+                <p class="name-clients">Gary Clark</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <p class="review-content">
+              "I was very my decision to work with your company on building the website for my brand, Gemini
+              Skincare. They did a great job putting"
+            </p>
+            <div class="review-content d-flex justify-content-end">
+              <p class="name-clients">Angela Wo</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- <div class="review-conten">
+            <p class="review-clients-item">
+              I was very satisfied with my decision to work with Zorro on building the website for my brand, Gemini
+              Skincare. They did a great job putting the site together in a timely fashion. Jon & team are extremely
+              detail-oriented and were open to the feedback I provided them.
+            </p>
+            <div class="review-clients-item d-flex justify-content-end">
+              <p class="name-clients">Name client</p>
+            </div>
+          </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Бегущая строка -->
+  <section class="layout-marquee">
+    <div class="items-wrap">
+      <div class="items marquee">
+
+        <div class="item item-img-4">
+          <class class="service-icons-text">Printing</class>
+        </div>
+
+        <div class="item item-img-1">
+          <class class="item-img-description"><a
+              href="file:///C:/Users/manag/Visual%20Studio%20Code/AdvertAgency/product.html">Polygraphy</a></class>
+        </div>
+        <div class="item item-img-2"></div>
+        <div class="item item-img-3"></div>
+        <div class="item item-img-5"></div>
+        <div class="item item-img-3"></div>
+      </div>
+      <div aria-hidden="true" class="items marquee">
+        <div class="item item-img-4"></div>
+        <div class="item item-img-3"></div>
+        <div class="item item-img-1"></div>
+        <div class="item item-img-5"></div>
+        <div class="item item-img-6"></div>
+        <div class="item item-img-5"></div>
+      </div>
+    </div>
+
+    <div class="items-wrap">
+      <div class="items marquee reverce">
+        <div class="item item-img-4"></div>
+        <div class="item item-img-3"></div>
+        <div class="item item-img-1"></div>
+        <div class="item item-img-5"></div>
+        <div class="item item-img-6"></div>
+        <div class="item item-img-5"></div>
+      </div>
+      <div aria-hidden="true" class="items marquee reverce">
+        <div class="item item-img-4"></div>
+        <div class="item item-img-3"></div>
+        <div class="item item-img-1"></div>
+        <div class="item item-img-5"></div>
+        <div class="item item-img-6"></div>
+        <div class="item item-img-5"></div>
+      </div>
+    </div>
+    <!-- </div> -->
+    </div>
+  </section>
+
+
+  <!-- Первый рабочий вариант, вся форма  -->
+
+  <!-- Request From -->
+  <div class="request-form-container">
+    <div class="row request-block">
+      <div class="col-lg-6 col-md-6 col-sm-12 request-form-title">
+        <h3 class="request-title">Order the most beautiful advertisement!</h3>
+      </div>
+      <div class="form-block col-lg-6 col-md-6 col-sm-12">
+        <form role="form" action="">
+          <div class="form-input">
+            <p class="discription-require-form">Your contact address</p>
+            <input class="text-name user-input" type="Email" maxlength="256" name="Email" data-name="Email"
+              placeholder="Type your email" id="">
+          </div>
+          <input type="checkbox" id="hd-1" class="hide" />
+          <label for="hd-1">Развернуть</label>
+          <div>
+            <div class="form-input">
+              <div class="form-input">
+                <p class="discription-require-form">How to contact you?</p>
+                <input class="text-name user-input" type="text" maxlength="256" name="Name" data-name="Name"
+                  placeholder="Type your name" id="">
+              </div>
+              <p class="discription-require-form">Your phone</p>
+              <input class="text-name user-input" type="phone" maxlength="11" name="phone" data-name="phone"
+                placeholder="Type your phone" id="">
+            </div>
+            <div class="form-input">
+              <p class="discription-require-form" data-tooltip="Загрузите один или несколько файлов">Add file</p>
+              <input class="user-input botton-file" type="file" multiple enctype="multipart/form-data" method="post"
+                name="photo">
+            </div>
+
+            <div class="form-input">
+              <textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Your message"
+                class="textarea user-input"></textarea>
+            </div>
+            <div class="submit-request-form">
+              <button type="submit" class="btn btn-dark btn-lg request-bottom">Submit</button>
+              <input class="checkbox-botton" type="checkbox" id="scales" name="scales" checked>
+              <label class="private-police-text" for="scales">Private police</label>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer-page-contaier">
+    <div class="row">
+
+      <div class="col-6 col-lg-2 column-footer">
+        <ul class="list-unstyled">
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Home</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Projects</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>About Us</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Contacts</div>
+          </a>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4 column-footer">
+        <ul class="list-unstyled">
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Home</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Projects</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>About Us</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Contacts</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Order</div>
+          </a>
+          <a href="/" aria-current="page" class="foot-link w-inline-block">
+            <div>Contact</div>
+          </a>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4 column-footer">
+        <ul class="list-unstyled contacts-in-footer">
+
+          <div class="contacts">Contact:</div>
+          <a href="/" aria-current="email" class="footer-email">
+            <div><a class="footer-email" href="mailto:">Ads.company@example.mail</a></div>
+          </a>
+          <div class="pres">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 column-footer">
+        <i class="fa-brands fa-stripe icon-footer"></i>
+      </div>
+      <div class="copyright">@ 2023 Create by</div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
